@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\title{\color{red}{RESUME}}
+\author{bhagyasrichintharla }
+\date{01 August 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{\color{blue}{PERSONNAL DETAILS}}
+\textbf{NAME}: Chintharla Bhagyasri\\
+\textbf{FATHER NAME :} Chintharla Sanjeeva Reddy\\
+\textbf{MOTHER NAME} : Chintharla Kavitha \\
+\textbf{DATE OF BIRTH }: 12-07-2004\\
+\textbf{ADDRESS}: Kamareddy\\
+\textbf{ID}:B191464\\
+\section{\color{blue}{ACADEMICS}}
+\begin{tabular}{|c|c|c|C|}
+\hline
+\textbf{S.NO}&\textbf{ACADEMIC YEAR}&\textbf{STANDARD}&\textbf{CGPA}\\
+\hline
+1&2018-19&10TH CLASS& 10.0\\
+\hline
+2&2019-20&PUC-1&9.3\\
+\hline
+3&2020-21&PUC-2&9.5\\
+\hline
+\end{tabular}
+\section{\color{blue}{ACHIEVEMENTS}}
+\begin{itemize}
+    \item state 50th rank in EAMCET
+    \item District 3rd in TMF
+    \item Got selected in RGUKTB
+\end{itemize}
+
+\section{\color{blue}{HOBBIES}}
+\begin{enumerate}
+    \item Dancing
+    \item cooking
+    \item watching cricket
+    \item Reading books
+\end{enumerate}
+\section{\color{blue}{IMAGE}}
+\begin{figure}[h]
+    \centering
+    \includegraphics{images.jpeg}
+    
+    \label{fig:my_label}
+\end{figure}
+
+\end{document}
